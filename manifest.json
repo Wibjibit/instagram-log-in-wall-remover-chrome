@@ -1,10 +1,5 @@
 {
   "author": "Sergey Pedan",
-  "browser_specific_settings": {
-    "gecko": {
-      "strict_min_version": "76.0"
-    }
-  },
   "content_security_policy": "script-src 'self'; object-src 'self';",
   "content_scripts": [
     {
@@ -28,7 +23,9 @@
     "128": "images/icon-128.png"
   },
   "incognito": "spanning",
-  "permissions": [],
+  "permissions": [
+    "https://www.instagram.com/"
+  ],
   "manifest_version": 2,
   "name": "Instagram “log-in wall” remover",
   "version": "1.1"
