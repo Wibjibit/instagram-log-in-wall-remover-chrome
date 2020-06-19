@@ -1,0 +1,35 @@
+{
+  "author": "Sergey Pedan",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "76.0"
+    }
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self';",
+  "content_scripts": [
+    {
+      "all_frames": false,
+      "js": ["instagram-login-wall-remover.js"],
+      "match_about_blank": false,
+      "matches": ["https://www.instagram.com/*"]
+    }
+  ],
+  "default_locale": "en",
+  "description": "Removes “Log in to continue”: modal dialog at the home page, and banner at the bottom of photo pages.",
+  "developer": {
+    "name": "Sergey Pedan",
+    "url": "https://github.com/sergeypedan/instagram-log-in-wall-remover-ff"
+  },
+  "icons": {
+    "32":  "images/icon-32.png",
+    "48":  "images/icon-48.png",
+    "64":  "images/icon-64.png",
+    "96":  "images/icon-96.png",
+    "128": "images/icon-128.png"
+  },
+  "incognito": "spanning",
+  "permissions": [],
+  "manifest_version": 2,
+  "name": "Instagram “log-in wall” remover",
+  "version": "1.1"
+}
