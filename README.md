@@ -16,4 +16,4 @@ Searches current page (only if the domain is instagram.com) for the blocks to re
 
 ## How to install
 
-From the official Chrome addons store: [addon page](https:///)
+From the official Chrome addons store: [addon page](https://chrome.google.com/webstore/detail/instagram-%E2%80%9Clog-in-wall%E2%80%9D-r/fhhciclbclihlbpkbnckfmhimgdgickh)
