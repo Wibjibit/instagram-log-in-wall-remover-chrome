@@ -1,5 +1,7 @@
 # Instagram log-in wall” remover
 
+<img src="https://raw.githubusercontent.com/sergeypedan/instagram-log-in-wall-remover-chrome/master/publishing/screenshot-1.png" alt="Screenshot" syle="max-width: 100%">
+
 ## What it is
 
 A Chrome extension
